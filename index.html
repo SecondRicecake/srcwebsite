@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>demo</title>
+	<link href="assets/css/mystyle.css" rel="stylesheet" />
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+
+</head>
+<body>
+
+<!--Sliding Side Navigation-->
+
+<div id="sidenav">
+	<a href="javascript:void(0)" class="closebtn"> &times; </a>
+	<a href="#bgImage">About</a>
+	<a href="#projectBoard">Project Board</a>
+	<a href="#projects">Projects</a>
+	<hr />
+	<a href="#contactUs">Contact Us</a>	
+</div>
+
+<!--Header-->
+<div class="container_fluid" id="header">
+	<div class="row">
+		<span class="col-md-2" style="padding-top:15px;float:left; margin-left:15px;font-size:30px; cursor: pointer;" id="openbtn">&#9776;</span>  
+		<span class="col-md-2" style="padding-top:18px;float:right;margin-right:20px;font-size: 25px;"> SRC 
+			<span style="font-size: 12px"><i> since 2016 </i></span>
+		</span>
+		
+	</div>
+</div>
+
+<!--Background Image-->
+<div class="container" id="bgImage">
+	<div class="row text-center">
+		<div class="col-md-12">
+		<span style="color:#f2e198;font-size:50px;font-weight:600;" id="clubMotto">"머리와 기계는 굴려야 산다"</span>
+		</div>
+		<div class="col-md-8 col-md-offset-2"><h3 style="color:#f2e198;font-size:35px;font-weight:600;"> Security Reseach Club</h3></div>
+		</div>
+	</div>
+</div>
+
+
+<!--About/Intro-->
+<div class="container-fluid" id="aboutSRC">
+	<div class="row">
+		<div class="col-md-6">
+		<h2> About SRC </h2>
+		<p>Security Research Club (SRC, pronounced 'source') is an extracurricular group designed primarily for LIFS students to expand upon the knowledge and skills they gain in class, but is also open to anyone looking to grow their technical skillset. SRC provides the opportunities and resources that students need to be proactive in their educations and gain real, hands-on experience in their fields. As a supplement to the LIFS curriculum, SRC aims to produce competent graduates who are thoroughly prepared and ultimately qualified for the industry of their choice.</p>
+		</div>
+		<div class="col-md-6">
+		<h2> SRC <span style="font-size:20px">[sɔ:rs]</span> </h2>			
+		<p>Security Research Club (SRC는 'Source 출처'의 약자이기도 하여 소스[sɔ:rs]로 발음합니다)은 정보법과학 전공학생들을 중심으로 수업 외 심화학습과 여러 프로젝트를 진행하는 스터디 그룹이자 학과 동아리입니다. 동아리 가입은 아래 프로젝트에 관심있는 국제학부 학생이라면 모두 가능합니다. 프로젝트는 개인 또는 그룹으로 진행 가능하며 SRC 멤버라면 누구든 새로운 프로젝트를 시작할 수 있습니다. SRC는 학생들의 창의성을 길러주는 동시에 현장에서 실제 경험을 쌓을 수 있는 기회와 자원을 제공합니다. 자세한 사항은 아래 프로젝트 보드/프로젝트 리스트를 확인해주시기 바랍니다. </p>
+		</div>
+		
+	</div>
+</div>
+
+
+<!--Project Board-->
+<div class="container" id="projectBoard">
+	<div class="row text-center">
+		<div class="col-md-12">
+			<h2>PROJECT BOARD</h2>
+			<iframe id="googleProjectBoard" src="https://docs.google.com/document/d/16_7KNygGqi4zVmZOMXqSjDHEAJDTJJDA5TRKso-pmUw/pub?embedded=true"></iframe>			
+		</div>	
+	</div>
+</div>
+
+<!--Project Progressbar-->
+<div class="container">
+  <h2>PROGRESS BAR</h2>
+  <div class="progress">
+    <div class="progress-bar progress-bar-danger" id="barBacklog" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%">
+      <span id="testtest">0</span> Project(s) in Backlog 
+    </div>
+  </div>
+  <div class="progress">
+    <div class="progress-bar progress-bar-info" id="barPlanning" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%">
+      <span>0</span> Project(s) in Planning
+    </div>
+  </div>
+  <div class="progress">
+    <div class="progress-bar progress-bar-warning" id="barProgress" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%">
+      <span>0</span> Project(s) in Progress 
+    </div>
+  </div>
+  <div class="progress">
+    <div class="progress-bar progress-bar-success" id="barComplete" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%">
+     <span>0</span> Project(s) Complete 
+    </div>
+  </div>
+</div>
+
+
+<!--motto-->
+<div class="row" id="motto">
+</div>
+
+
+<!--Panels/Links to Project Docs-->
+<div class="container" id="projects">
+	<h2>PROJECTS LIST</h2>
+  		<p>Click to go to documents.</p>
+  	<div class="row">
+  	<div class="panel-group col-md-12">
+    <div class="panel panel-default">
+     	<div class="panel-heading" style="background-color: #1a1a1a; color: #ffcc00;">
+        	<h3 class="panel-title">
+          		<a style="font-size: 20px;">Projects<span class="badge">3</span></a>
+        	</h3>
+      	</div>
+      	<div class="panel-body">
+        	<ul class="list-group">
+          		<li class="list-group-item">
+					<a href="https://docs.google.com/document/d/1jBKxmNhvE06pWzMa1DTcWmfz6vEsfCeKwtxdO3vzmdY/edit?usp=sharing" target="_blank">Bartop Arcade</a></li>
+          		<li class="list-group-item">
+					<a href="https://docs.google.com/document/d/1boGiebV2UK8LXVLzjR9h_PTbu3QWx-gnqlCIayRB2a8/edit?usp=sharing" target="_blank">Internet Governance</a></li>
+          		<li class="list-group-item">
+				<a href="https://docs.google.com/document/d/1m5HQfO1svvYVqzL3MUSYmjpO3R0o3maATxjrqW0mA8g/edit?usp=sharing" target="_blank">Python Classes</a></li>
+        	</ul>
+       </div>
+    </div>
+    </div>
+  </div>
+</div>
+
+<!--Contacts/CIS Homepage-->
+<div class="container" id="contactUs">
+    <div class="row"> 
+	<div class="col-md-12">
+    	<div class="col-md-4 panel panel-warning contacts">
+      		<div class="panel-heading">E-mail Us</div>
+      		<div class="panel-body">2ricecake@gmail.com</div>
+    	</div>
+
+		<div class="col-md-4 panel panel-danger contacts">
+      		<div class="panel-heading">About LIFS</div>
+      		<div class="panel-body">
+			<a href="https://cis.hallym.ac.kr/ko/majors/undergraduate/legal-informatics-and-forensic-science/" target="_blank">Legal Informatics and Forensic Science</a>
+			</div>	
+    	</div>
+		
+		<div class="col-md-4 panel panel-info contacts">
+      		<div class="panel-heading">Location</div>
+      		<div class="panel-body">College of International Studies Room 14401</div>	
+    	</div>
+	</div>
+	</div>
+</div>
+
+	<script src="assets/js/jquery-3.1.1.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/myjs.js"></script>
+	<script src="assets/js/tabletop.min.js"></script>
+
+</body>
+</html>

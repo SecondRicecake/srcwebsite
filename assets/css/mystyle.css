@@ -1,0 +1,133 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.text-center {
+    text-align:center;
+}
+
+/*
+LOGO
+ */
+
+#header {
+	background-color: #ffffff;
+	top:0;
+	position:fixed;
+	width:100%;
+	height:80px;
+	z-index: 1;
+}
+
+/*
+SIDE NAVIGATION
+
+ set side nav size and color*/
+
+#sidenav {
+	top:0;
+	height:100%;
+	width:0;
+	position: fixed;
+	z-index: 2;
+	background-color: #111;
+	overflow-x: hidden;
+	transition: 0.5s;
+}
+
+
+/*set side nav a tags color and display*/
+#sidenav a {
+	padding:20px 8px 8px 15px;
+	text-decoration: none;
+	font-size: 20px;
+	color: #818181;
+	display: block;
+	transition: 0.4s
+}
+
+
+/*change color of text if mouse hovers*/
+
+#sidenav a:hover {
+	color: #f1f1f1;
+}
+
+/*set position of close button*/
+#sidenav .closebtn {
+	position: absolute;
+	top:0;
+	right:25px;
+	font-size: 30px;
+	margin-left: 50px;
+}
+
+/*
+background Image
+ */
+
+#bgImage { 
+	margin-top: 8px;   
+	padding-top: 150px;
+    background-image: url('img/bgimage.jpg');
+    background-color: lightblue;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width:100%;
+    height:500px;
+}	
+
+/*About/Intro*/
+
+#aboutSRC {
+	color: #ffffff;
+	background-color: #2eb8b8;
+	width: 100%;
+	height:300px;
+	padding: 8px 20px 50px 20px;
+	margin-bottom: 50px;
+
+}
+
+/*
+PROJECT BOARD
+ */
+
+h2 {
+	margin-top: 50px;
+}
+
+#googleProjectBoard {
+	width:100%; 
+	height:400px;
+	border:none;
+}
+
+/*
+PROJECTS
+ */
+
+#projects {
+	margin-top:60px;
+	margin-bottom:100px;
+}
+
+/*backgroundimage for motto*/
+
+#motto {
+	background-image: url('img/bgimage2.jpg');
+    background-color: lightblue;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	width:100%;
+	height:300px;
+	display: block;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+/*Contacts*/
+.contacts {
+	margin-top: 70px;
+
+}
