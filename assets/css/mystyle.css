@@ -77,6 +77,12 @@ background Image
     height:500px;
 }	
 
+.slow-spin {
+  -webkit-animation: fa-spin 6s infinite linear;
+  animation: fa-spin 6s infinite linear;
+}
+
+
 /*About/Intro*/
 
 #aboutSRC {
